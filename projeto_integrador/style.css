@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(229, 209, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(201, 160, 240);
+    justify-items: center;
+    margin-left: 105px;
+    width: 100rem;
+    padding: 12px;
+}
+
+hgroup{
+    text-align: center;
+}
+
+figure{
+    justify-items: center;
+    align-items: center;
+}
+
+address{
+    justify-items: center;
+    align-items: center;
+
+}
+
+.descricao{
+    background-color: rgb(201, 160, 240);
+    border-radius: 10px;
+    margin-left: 105px;
+    width: 100rem;
+    padding: 12px;
+    
+}
