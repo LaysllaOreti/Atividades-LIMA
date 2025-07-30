@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(254, 252, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{
+  margin-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 23, 78);
+    text-align: center;
+    margin: 8px;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 89);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(91, 91, 171);
+    width: 305px;
+    height: 55px;
+    padding: 6px;
+    color:aliceblue;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 28px;
+    border-radius: 12px;
+}
+
+.box-component{
+    margin-left: 30px;
+    padding: 20px;
+    width: 360px;
+    height: 130px;
+    background-color: rgb(197, 197, 232);
+    border: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(19, 24, 84);
+    margin-bottom: 26px;
+    border-radius: 12px;
+}
+
+a{
+    margin-left: 30px;
+}
+a[title] {
+    color: rgb(50, 30, 163);
+    margin-left: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a[href="https://www.google.com/"] {
+   margin-left: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(11, 7, 66);
+}
+
+a:hover {
+  color: rgb(18, 103, 230);
+}
+
+p::first-line {
+  color: rgb(12, 6, 75);
+}
+
+div{
+    margin-left: 30px;
+}
+
+div:first-child {
+  color: rgb(6, 10, 87);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    margin-left: 30px;
+}
+article > p {
+  color: blue;
+}
+
+.box_teste{
+     margin-left: 30px;
+    padding: 20px;
+    width: 350px;
+    height: 80px;
+    background-color: rgb(175, 175, 223);
+    border: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    margin-bottom: 25px;
+}
+
+.box_teste p {
+  color: rgb(49, 21, 97);
+}
+
+p + img {
+  border: 5px solid rgb(49, 21, 97);
+  margin-left: 30px;
+}
+
+p ~ img {
+  border: 2px solid rgb(49, 21, 97);
+}
+
+p {
+  margin-left: 40px;
+}
+
+img {
+  width: 250px;
+  height: 180px;
+  border-radius: 12px;
+}

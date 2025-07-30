@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Seletores</title>
+    <link rel="icon" href="imagens/computador.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Exemplo 1 - Seletor ID-->
+    <h1 id="titulo">Aula de HTML - Seletores (CSS)</h1>
+
+    <!--Exemplo 2 - Seletor Tipo-->
+    <h2>Seletor Tipo - Para título</h2>
+    <h3>Nessa parte, estou utilizando o Seletor Tipo</h3>
+
+    <!--Exemplo 3 - Seletor Class-->
+    <h2>Seletor Classe - Usando Box</h2>
+    <div class="box-component">
+        <p>
+            O CSS atua definindo estilos para os elementos dentro de uma página HTML.
+            Cada estilo é composto por um seletor (que identifica os elementos a serem estilizados)
+            e por um conjunto de declarações (que indicam quais propriedades visuais devem ser aplicadas 
+            e quais valores elas terão).
+        </p>
+    </div>
+
+   <!--EXemplo 4 - Atributos específicos-->
+    <h2>Exemplo - a [title]</h2>
+    <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Wikipedia">Ir para a Wikipedia</a>
+
+    <!--Exemplo 5 - Atributos específicos-->
+    <h2>Exemplo - a[href="exemplo.com"]</h2>
+    <a href="https://www.google.com/">Visite o Google</a>
+
+    <!--Exemplo 6 - Psedoclasses e Pseudoelementos-->
+    <h2>Exemplo Hover com Psedoclasse</h2>
+    <a href="#">Passe o cursor por cima para testar o efeito hover</a>
+
+    <!--Exemplo 7 - Psedoclasses e Pseudoelementos-->
+    <h2>Exemplo p::first-line - Psedoclasse</h2>
+    <div class="box-component">
+        <p>
+            Este é um texto de exemplo para demonstrar como o CSS pode ser usado na estilização. 
+            Pode-se observar como a pseudo-classe first-line altera a cor tanto da box1 quanto da box2.
+        </p>
+    </div>
+
+    <!--Exemplo 7 - Psedoclasses e Pseudoelementos-->
+    <h2>Exemplo div:first-child - Psedoclasse</h2>
+    <section>
+        <div>Primeira div (essa ficará azul)</div>
+        <div>Segunda div</div>
+    </section>
+
+    <!--Exemplo 8 - Combinadores-->
+    <h2>Exemplo com Filho direto - Combinadores</h2>
+    <article>
+         <p>Olá, eu sou o filho direto de article (ficará azul)</p>
+        <div>
+            <p>Olá, eu sou o neto de article (não fico azul)</p>
+        </div>
+    </article>
+
+    <!--Exemplo 9 - Combinadores-->
+    <h2>Exemplo de Descendência - Combinadores</h2>
+    <div class="box_teste">
+         <p>Esse parágrafo está dentro da Box</p>
+        <div>
+            <p>Esse outro parágrafo está dentro de uma div, localizada dentro da Box</p>
+         </div>
+    </div>
+
+    <!--Exemplo 10 - Combinadores-->
+    <h2>Exemplo p + img - Next-Sibling</h2>
+    <p>Imagem 01</p>
+    <img src="imagens/harry1.jpg" alt="Imagem 1">
+
+    <p>Imagem 02</p>
+    <div>
+        <img src="imagens/harry5.jpg" alt="Imagem 2">
+    </div>
+
+    <!--Exemplo 11 - Combinadores-->
+    <h2>Exemplo p ~ img - Subsequent-Sibling</h2>
+    <p>Esse é um parágrafo de exemplo</p>
+    <img src="imagens/tlou1.jpg" alt="Imagem1">
+    <img src="imagens/tlou2.jpg" alt="Imagem2">
+
+</body>
+</html>
