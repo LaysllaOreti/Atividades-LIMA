@@ -5,7 +5,6 @@
 </p>
 
 <p>Este repositório reúne os materiais e exercícios realizados na disciplina de **LIMA (Linguagem de Marcação)**. O foco está no estudo e na aplicação de HTML, CSS e dos princípios essenciais para a construção e organização de páginas web, seguindo padrões e boas práticas de desenvolvimento. </p>
----
 
 ## 🧠 Conteúdos abordados
 
